@@ -27,4 +27,6 @@
         the constant values 41, 15, 19 are assumptions that the color of the wartermark is rgb(41,15,19)
 
     3) Finally, the new pixel value is the average of rgb (grayVal = (r + g + b) / 3)
+    
+    Thank you, Rozy! You helped a lot.
 
