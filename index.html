@@ -3,8 +3,15 @@
         <script src="main.js"></script>
     </head>
     <body>
-        <img id="myImg" src="img/einvigi_10_halldor_1.jpg">
-        <canvas id="myCanvas"></canvas>
-
+        <div id="imgsContainer">
+           <img id="myImg" src="img/einvigi_10_halldor_1.jpg">
+           <canvas id="myCanvas"></canvas>
+           <img id="myImg1" src="img/einvigi_10_halldor_2.jpg">
+           <canvas id="myCanvas1"></canvas>
+           <img id="myImg2" src="img/einvigi_10_halldor_3.jpg">
+           <canvas id="myCanvas2"></canvas>
+        </div>
+        
+        <input type="file" onchange="onLoadFile(event)">
     </body>
 </html>
