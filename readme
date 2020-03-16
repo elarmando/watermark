@@ -14,7 +14,7 @@
     This implementation follows these steps:
 
     1) Find the pixels that are not gray (isPixelWaterMark2 function)
-    2) for each pixel channel applied the reverse transformation
+    2) for each pixel channel apply the reverse transformation
         r = Math.round((r1 - (c2 * 41)) / c1);
         g = Math.round((g1 - (c2 * 15)) / c1);
         b = Math.round((b1 - (c2 * 19)) / c1);
